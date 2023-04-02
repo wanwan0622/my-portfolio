@@ -5,7 +5,7 @@ const Feature = () => {
   return (
     <div>
       <BrowserRouter>
-        <h2>feature</h2>
+        <h2 className='heading-primary'>feature</h2>
         <p>お気に入りの作品です</p>
         <img src="./logo192.png"></img>
         <p>

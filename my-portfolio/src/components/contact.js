@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <BrowserRouter>
-        <h3>Contact</h3>
+        <h2 className='heading-primary'>Contact</h2>
         <p>みんな見てね</p>
         <ul>
           <li>

@@ -17,6 +17,16 @@ li {
   text-align: center;
 }
 
+h2.heading-primary {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 36px;
+  line-height: 1;
+  display: inline-block;
+  letter-spacing: .2em;
+  text-transform: lowercase;
+  color: #f39ac7;
+}
+
 /*
 .App-logo {
   height: 40vmin;

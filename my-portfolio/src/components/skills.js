@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div>
       <BrowserRouter>
-        <h2>skills</h2>
+        <h2 className='heading-primary'>skills</h2>
         <p>勉強中です</p>
         <ul>
           <li>

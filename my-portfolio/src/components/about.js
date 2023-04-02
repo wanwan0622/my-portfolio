@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <h2>about</h2>
+      <h2 className='heading-primary'>about</h2>
       <p>竹澤彩里です！</p>
       <img src='./logo192.png'></img>
       <p>
