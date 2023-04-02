@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import styles from '../styles/Navbar.module.css'
 import NavbarLink from './NavbarLink';
 
 const navbar_lists = [
