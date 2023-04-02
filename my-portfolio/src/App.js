@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import Title from './components/title.js';
-import Navbar from './components/navbar.js';
-import Feature from './components/feature.js';
-import About from './components/about.js';
-import Skills from './components/skills.js';
-import Contact from './components/contact.js';
+import Title from './components/Title.js';
+import Navbar from './components/Navbar.js';
+import Feature from './components/Feature.js';
+import About from './components/About.js';
+import Skills from './components/Skills.js';
+import Contact from './components/Contact.js';
 
 function App() {
   return (
