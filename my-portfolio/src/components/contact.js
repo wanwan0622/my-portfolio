@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
 import LinkItem from './LinkItem';
+import styles from '../styles/Contact.module.css'
 
 const contact_lists = [
   {href: 'https://twitter.com/bamboooo_music', image: './contact/twitter.png', text: 'twitter'},
@@ -18,8 +19,8 @@ const Contact = () => {
         <p>みんな見てね</p>
         <ul>
           {contact_lists.map((contact) => (
-            <li>
-              <LinkItem href={contact.href} is_newpage={true}>
+            <li key={contact.text}>
+              <LinkItem href={contact.href} is_newpage={true} className={styles.contact_item}>
                 <img src={contact.image} width='50px'></img>
                 {contact.text}
               </LinkItem>
