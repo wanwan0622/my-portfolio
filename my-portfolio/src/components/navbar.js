@@ -1,50 +1,34 @@
 import React from 'react';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import styles from '../styles/navbar.module.css'
-import { Menu, MenuItem } from '@mui/material';
+import NavbarLink from './NavbarLink';
 
-const Article = () => {
+const navbar_lists = [
+  {href: '#feature', text: 'feature'},
+  {href: '#works-programming', text: 'works - programming'},
+  {href: '#works-design', text: 'works - design'},
+  {href: '#works-music', text: 'works - music'},
+  {href: '#writing', text: 'writing'},
+  {href: '#about', text: 'about'},
+  {href: '#skills', text: 'skills'},
+  {href: '#slide', test: 'slide'},
+  {href: '#contact', test: 'contact'}
+]
+
+const Navbar = () => {
   return (
     <div>
       <BrowserRouter>
-      <Menu>
-        <MenuItem>feature</MenuItem>
-        <MenuItem>works - programming</MenuItem>
-      </Menu>
-      </BrowserRouter>
-      {/* <BrowserRouter>
         <ul>
-          <li>
-            <Link to='/'>feature</Link>
-          </li>
-          <li>
-            <Link to='/'>works - programming</Link>
-          </li>
-          <li>
-            <Link to='/'>works - design</Link>
-          </li>
-          <li>
-            <Link to='/'>works - music</Link>
-          </li>
-          <li>
-            <Link to='/'>writing</Link>
-          </li>
-          <li>
-            <Link to='/'>about</Link>
-          </li>
-          <li>
-            <Link to='/'>skills</Link>
-          </li>
-          <li>
-            <Link to='/'>slide</Link>
-          </li>
-          <li>
-            <Link to='/'>contact</Link>
-          </li>
+          {navbar_lists.map((value) => (
+            <li key={value.text}>
+              <NavbarLink href={value.href}>{value.text}</NavbarLink>
+            </li>
+          ))}
         </ul>
-      </BrowserRouter> */}
+      </BrowserRouter>
     </div>
   );
 };
 
-export default Article;
+export default Navbar;
