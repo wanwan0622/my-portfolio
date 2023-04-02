@@ -1,0 +1,34 @@
+.head-div {
+  margin-top: 200px;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
+}
+
+.subtitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  line-height: 1;
+  display: block;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #757575;
+}
+
+.title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 88px;
+  font-weight: normal;
+  line-height: 1;
+  display: block;
+  letter-spacing: .1em;
+  color: #f39ac7;
+}
+
+.details {
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: .2em;
+}
