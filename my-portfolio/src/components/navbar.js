@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
-import NavbarLink from './NavbarLink';
+import LinkItem from './LinkItem';
 
 const navbar_lists = [
   {href: '#feature', text: 'feature'},
@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul>
           {navbar_lists.map((value) => (
             <li key={value.text}>
-              <NavbarLink href={value.href}>{value.text}</NavbarLink>
+              <LinkItem href={value.href}>{value.text}</LinkItem>
             </li>
           ))}
         </ul>
