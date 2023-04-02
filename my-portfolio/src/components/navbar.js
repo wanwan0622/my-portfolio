@@ -21,7 +21,7 @@ const Navbar = () => {
         <ul>
           {navbar_lists.map((value) => (
             <li key={value.text}>
-              <LinkItem href={value.href}>{value.text}</LinkItem>
+              <LinkItem href={value.href} is_newpage={false}>{value.text}</LinkItem>
             </li>
           ))}
         </ul>
