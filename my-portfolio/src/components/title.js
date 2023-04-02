@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Title.module.css'
 
-const Article = () => {
+const Title = () => {
   return (
     <div>
       <h2 className={styles.subtitle}>Ayari Takezawa's</h2>
@@ -11,4 +11,4 @@ const Article = () => {
   );
 };
 
-export default Article;
+export default Title;

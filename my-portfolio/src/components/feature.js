@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Link } from 'react-router-dom';
 
-const Article = () => {
+const Feature = () => {
   return (
     <div>
       <BrowserRouter>
@@ -34,4 +34,4 @@ const Article = () => {
   );
 };
 
-export default Article;
+export default Feature;
