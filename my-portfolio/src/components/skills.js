@@ -11,6 +11,7 @@ const Skills = () => {
         <ul>
           <li>
             <h3>Python</h3>
+            <img src='./skills/python.png' width='50px'></img>
             <p className={styles.star}>★★★☆☆</p>
             <p>
               競プロでPythonを勉強し始めました。初めて触った言語です。<br/>
@@ -20,6 +21,7 @@ const Skills = () => {
           </li>
           <li>
             <h3>JavaScript</h3>
+            <img src='./skills/javascript.jpg' width='100px'></img>
             <p className={styles.star}>★☆☆☆☆</p>
             <p>
               なんかこのサイトを作ったりChrome拡張を作るのに使ってます。
@@ -27,6 +29,7 @@ const Skills = () => {
           </li>
           <li>
             <h3>fluter & piccolo</h3>
+            <img src='./skills/flute.png' width='50px'></img>
             <p className={styles.star}>★★★★★</p>
             <p>
               小学6年生からずっとフルートを続けています。<br/>
@@ -35,6 +38,7 @@ const Skills = () => {
           </li>
           <li>
             <h3>piano</h3>
+            <img src='./skills/piano.png' width='50px'></img>
             <p className={styles.star}>★★★★★</p>
             <p>
               幼稚園の頃から続けています。<br/>
