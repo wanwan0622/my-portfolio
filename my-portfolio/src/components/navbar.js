@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import LinkItem from './LinkItem';
+import styles from '../styles/Navbar.module.css';
 
 const navbar_lists = [
   {href: '#feature', text: 'feature'},
@@ -18,7 +19,7 @@ const Navbar = () => {
   return (
     <div>
       <BrowserRouter>
-        <ul>
+        <ul className={styles.menu}>
           {navbar_lists.map((value) => (
             <li key={value.text}>
               <LinkItem href={value.href} is_newpage={false}>{value.text}</LinkItem>

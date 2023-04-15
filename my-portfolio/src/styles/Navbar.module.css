@@ -1,0 +1,14 @@
+.menu li a:before {
+    content: "";
+    border-bottom: 2px dotted #F39AC7;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu li a:hover:before {
+    transform: scaleX(1);
+  }
