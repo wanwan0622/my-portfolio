@@ -13,8 +13,8 @@ const GitHubGrass = () => {
         username="wanwan0622"
         blockRadius="10"
         theme={{
-          light: ["#EBEDF0", "#f2b5d3", "#f39ac7", "#ed4e9b", "#f280b9"],
-          dark: ["#EBEDF0", "#f2b5d3", "#f39ac7", "#ed4e9b", "#f280b9"]
+          light: ["#EBEDF0", "#f2b5d3", "#f39ac7", "#f280b9", "#ed4e9b"],
+          dark: ["#EBEDF0", "#f2b5d3", "#f39ac7", "#f280b9", "#ed4e9b"]
         }}
       />
     </div>
