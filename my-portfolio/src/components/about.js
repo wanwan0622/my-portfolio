@@ -7,7 +7,7 @@ const About = () => {
       <h2 className="heading-primary">about</h2>
       <p>竹澤彩里です！</p>
       <div className={styles.column}>
-        <img src="./icon.png" width={"20%"}></img>
+        <img src="./icon.png" className={styles.icon}></img>
         <div>
           <p>
             2023年4月からエンジニアとして働いています。

@@ -2,3 +2,16 @@
   display: flex;
   text-align: left;
 }
+
+.icon {
+  width: 20%;
+  height: auto;
+  aspect-ratio: 1/1;
+}
+
+@media (max-width: 700px) {
+  .icon {
+    height: 100px; /* 画像の高さを固定する値 */
+    width: 100px;
+  }
+}
